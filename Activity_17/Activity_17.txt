@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang"en">
+
+<head>
+<meta cahrsets"UTF-8">
+<title>CSS Properties</title>
+<style>
+
+html {
+font-size 30px;
+}
+
+body{
+background-colors: cornflowerlover
+color:white
+font-size:18px;
+}
+
+#color {
+color: coral;
+}
+#size {
+font-size: 2rem;
+}
+#weigth {
+font-weight: 900;
+}
+#family {
+font-family: 'caveat',cursive;
+}
+#align {
+text-align:right;
+}
+</style>
+<link rel="https://fonts.google.com/specimen/Jersey+25+Charted">
+<link rel="https://fonts.google.com/specimen/Teko">
+<link rel="https://fonts.google.com/specimen/Shadows+Into+Light">
+<head/>
+
+<body>
+  <h1>Important CSS properries</h1>
+  <p id="color"</p>
+    <p id="size">font size</p>
+    <p id="weight">font weight</p>
+    <p id="family">font family</p>
+    <p id="align">Text align</p>
+    </body>
+    
+    </html>
+  </body>
