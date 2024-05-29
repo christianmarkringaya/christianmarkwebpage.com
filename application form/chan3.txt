@@ -1,0 +1,40 @@
+// Login Form
+document.getElementById("loginForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    // Get username and password values
+    var username = document.getElementById("username").value;
+    var password = document.getElementById("password").value;
+
+    // Simulate login functionality (replace with backend authentication)
+    if (username === "user" && password === "password") {
+        // Redirect to homepage upon successful login
+        window.location.href = "home.html";
+    } else {
+        // Display error message for invalid credentials
+        document.getElementById("welcome").textContent = welcome.";
+    }
+});
+
+// Logout Button (only in the application page)
+var logoutBtn = document.getElementById("logoutBtn");
+if (logoutBtn) {
+    logoutBtn.addEventListener("click", function() {
+        // Redirect to login page upon logout
+        window.location.href = "index.html";
+    });
+}
+
+// Personal Information Form (only in the application page)
+document.getElementById("personalInfoForm").addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    // Get personal information values
+    var firstName = document.getElementById("firstName").value;
+    var lastName = document.getElementById("lastName").value;
+    var email = document.getElementById("email").value;
+
+    // Simulate saving personal information (replace with backend functionality)
+    alert("Personal information saved!\n\nFirst Name: " + firstName + "\nLast Name: " + lastName + "\nEmail: " + email);
+});
+
