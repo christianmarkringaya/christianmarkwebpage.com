@@ -10,7 +10,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: linear-gradient(135deg, #FF6B6B, #FFE66D, #8AFF6E);
+    background linear-gradient(135deg, #FF6B6B, #FFE66D, #8AFF6E);
     background-image: url('https://assets2.cbsnewsstatic.com/hub/i/2016/07/20/0e0c72b2-0b55-4390-8703-c3d57260847d/sun-somersault-sdo-photos.gif?v=dac66bdad19d0be8e87f46552b582682');
     background-repeat: no-repeat;
     background-size: cover;
