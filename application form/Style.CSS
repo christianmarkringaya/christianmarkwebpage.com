@@ -22,7 +22,7 @@ body {
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.9); /* Changed from whiteblue to rgba for transparency */
+    background: linear-gradient(135deg, #FF6B6B, #FFE66D, #8AFF6E);
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
     text-align: center;
